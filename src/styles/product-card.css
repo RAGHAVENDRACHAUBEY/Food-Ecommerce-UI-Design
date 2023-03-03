@@ -1,0 +1,105 @@
+.product__item {
+    border:1px solid #90c53f29;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 30px;
+    cursor: pointer;
+  }
+  
+  .product__img {
+    margin-bottom: 20px;
+    transition: 0.4s;
+  }
+  
+  .product__img:hover {
+    transform: scale(1.2);
+  }
+  
+  .product__content h5 a {
+    color: #212245;
+    font-size: 1rem;
+  }
+  
+  .product__content h5 {
+    margin-bottom: 30px;
+  }
+  
+  .product__price {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #8fc53f;
+  }
+  
+  .addTOCart__btn {
+    border: none;
+    padding: 7px 25px;
+    background: #8fc53f;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  }
+  .addTOCart__btn:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #f29719 ;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.addTOCart__btn:hover:before{
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+  
+  @media only screen and (max-width: 992px) {
+    .product__content h5 a {
+      font-size: 0.8rem;
+    }
+    .product__item {
+      padding: 20px;
+    }
+    .addTOCart__btn {
+      padding: 5px 15px;
+      font-size: 0.7rem;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .product__img {
+      margin-bottom: 0px;
+     
+  }
+  .product__img .w-50 {
+    width: 100%!important;
+}
+.product__content .dop_hero{
+  flex-direction: column;
+}
+.product__content h5 {
+  margin-bottom: 10px;
+}
+.addTOCart__btn {
+  margin-top: 10px;
+}
+  }

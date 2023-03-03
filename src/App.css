@@ -1,0 +1,107 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+section {
+  padding: 60px 0px;
+}
+.slick-slide img {
+  display: inline !important;
+}
+.slick-prev, .slick-next {
+  background: #8fc53f !important;
+  color:white !important
+}
+@media only screen and (max-width: 768px) {
+  section {
+    padding: 40px 0px;
+  }
+
+  h1,
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* .slick-arrow.slick-next {
+  right: 50px !important;
+  z-index: 999 ;
+}
+.slick-arrow.slick-prev {
+  left: 50px !important;
+  z-index: 999;
+}
+.slick-next:before {
+  font-family: 'slick';
+  font-size: 40px !important;
+  line-height: 1;
+ 
+}
+.slick-prev:before {
+  font-family: 'slick';
+  font-size: 40px !important;
+  line-height: 1;
+ 
+}
+.free{
+  display: flex;
+  gap:21px
+}
+.fr-0{
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+.te-frr p{
+  color: #000;
+  font-family: Noto Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 10px auto;
+  text-align: center;
+}
+.sofa-a{
+  display: flex;
+  justify-content: space-around;
+}
+.card-heading h4 {
+  color: #000;
+  text-align: center;
+  font-family: Recoleta;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  margin: 0 auto;
+  text-transform: capitalize;
+}
+.t-e-e{
+  color: #000;
+  font-family: Noto Sans;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  opacity: .8;
+  margin-top: 6px;
+  padding-left:10px
+}
+.shop-fl{
+  padding-top:30px;
+  padding-bottom: 30px;
+}
+.ch-09:hover {
+  background-color: hsla(0,0%,77%,.05);
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  transform: scale(1.01);
+  transition: .3s ease-in-out;
+  padding: 3px;
+} */
+
+/* Food delivery css  */

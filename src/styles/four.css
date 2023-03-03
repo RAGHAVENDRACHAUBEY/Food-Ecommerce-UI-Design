@@ -1,0 +1,14 @@
+
+.error-wrap h2{
+    font-size: 154px;
+    color: black;
+    font-weight: 900;
+    font-family: 'Raleway',sans-serif;
+    letter-spacing: 10px;
+}
+.error-wrap a.btn {
+    display: inline-table;
+    margin-top: 10px;
+   background: #8fc53f;;
+    color:white
+}
